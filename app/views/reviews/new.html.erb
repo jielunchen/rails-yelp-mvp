@@ -1,0 +1,13 @@
+
+<!-- post '/restaurants/:id/reviews', to: 'reviews#create'
+    post restaurants/4/reviews -->
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 mx-auto">
+      <%= simple_form_for [@restaurant, @review ] do |f| %>
+      <%= f.input :content %>
+      <%= f.button :submit %>
+  <% end %>
+    </div>
+  </div>
+</div>
