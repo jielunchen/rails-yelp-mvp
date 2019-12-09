@@ -11,3 +11,6 @@
     "webpack-dev-server": "^3.9.0"
   }
 }
+
+serialize-javascript@^2.1.1:
+  version "2.1.1"
