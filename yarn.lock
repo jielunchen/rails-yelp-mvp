@@ -7258,6 +7258,4 @@ yargs@^7.0.0:
     y18n "^3.2.1"
     yargs-parser "^5.0.0"
 
-    serialize-javascript@^2.1.1:
-  version "2.1.1"
 
